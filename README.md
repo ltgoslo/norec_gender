@@ -22,9 +22,11 @@ The metadata for each review is provided as a JSON object, all listed in a singl
 
 If you use this dataset, please cite the following paper:
 
+```
 @InProceedings{OvrMaeBar20,
   author = {Samia Touileb and Lilja {\O}vrelid and Erik Velldal},
   title = {Gender and sentiment, critics and authors: a dataset of Norwegian book reviews},
   booktitle = {{Proceedings of the 2nd Workshop on Gender Bias in Natural Language Processing}},
   year = 2020,
 }
+```
