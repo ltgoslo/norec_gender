@@ -1,6 +1,6 @@
 # NoReC_gender
 
-This dataset is described in the paper "Gender and sentiment, critics and authors: a dataset of Norwegian book reviews" by S. Touileb, E. Velldal, and L. Øvrelid, accepted at the Second Workshop on Gender Bias in Natural Language Processing, COLING 2020.
+This dataset is described in the paper "*Gender and sentiment, critics and authors: a dataset of Norwegian book reviews*" by S. Touileb, E. Velldal, and L. Øvrelid, presented at the Second Workshop on Gender Bias in Natural Language Processing, COLING 2020.
 
 It comprises book reviews from the Norwegian Review Corpus (NoReC) corpus annotated for gender of both book authors and critics (review authors).
 
@@ -14,7 +14,7 @@ The licence is motivated by the need to block the possibility of third parties r
 
 # Format and pre-processing
 
-The book reviews are distributed as .txt files, split into train, dev, and test sets. The files contain tokenized sentence and paragraph segmented texts, formated using UDPipe.   
+The book reviews are distributed as *.txt* files, split into train, dev, and test sets. The files contain tokenized sentence and paragraph segmented texts, formated using UDPipe.   
 
 The metadata for each review is provided as a JSON object, all listed in a single file, metadata_norec_gender.json, indexed on the document id. The JSON objects record several properties as the numerical rating (an integer in the range 1–6), the thematic category or domain, the URL of the original document, the names of the critics and their genders, the names of the book authors and their genders.
 
@@ -22,9 +22,11 @@ The metadata for each review is provided as a JSON object, all listed in a singl
 
 If you use this dataset, please cite the following paper:
 
-@InProceedings{OvrMaeBar20,
+```
+@InProceedings{TouOvrVell20,
   author = {Samia Touileb and Lilja {\O}vrelid and Erik Velldal},
   title = {Gender and sentiment, critics and authors: a dataset of Norwegian book reviews},
   booktitle = {{Proceedings of the 2nd Workshop on Gender Bias in Natural Language Processing}},
   year = 2020,
 }
+```
