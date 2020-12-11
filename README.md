@@ -2,7 +2,7 @@
 
 This dataset is described in the paper ["*Gender and sentiment, critics and authors: a dataset of Norwegian book reviews*"](https://www.aclweb.org/anthology/2020.gebnlp-1.11/) by S. Touileb, E. Velldal, and L. Øvrelid, presented at the Second Workshop on Gender Bias in Natural Language Processing, COLING 2020.
 
-It comprises book reviews from the Norwegian Review Corpus (NoReC) corpus annotated for gender of both book authors and critics (review authors).
+NoReC_gender comprises the _book reviews_ of the Norwegian Review Corpus (NoReC), here expanded with annotations of _gender_ of both book authors and critics (review authors).
 
 # Terms of use
 
@@ -14,9 +14,9 @@ The licence is motivated by the need to block the possibility of third parties r
 
 # Format and pre-processing
 
-The book reviews are distributed as *.txt* files, split into train, dev, and test sets. The files contain sentence and paragraph segmented texts, formated using UDPipe.   
+The book reviews are distributed as *.txt* files, split into pre-defined train, dev, and test sets (again, inherited from NoReC). The files contain sentence and paragraph segmented texts, processed using UDPipe. 
 
-The metadata for each review is provided as a JSON object, all listed in a single file, metadata_norec_gender.json, indexed on the document id. The JSON objects record several properties as the numerical rating (an integer in the range 1–6), the thematic category or domain, the URL of the original document, the names of the critics and their genders, the names of the book authors and their genders. For more information about the metadata, data sources, etc. please see the [NoReC repo](https://github.com/ltgoslo/norec).
+The metadata for each review is provided as a JSON object, all listed in a single file, metadata_norec_gender.json, indexed on the document id (corresponding to the file names). The JSON objects record several properties as the numerical rating (an integer in the range 1–6), the thematic category or domain, the URL of the original document, the names of the critics and their genders, the names of the book authors and their genders. For more information about the metadata, data sources, etc. please see the [NoReC repo](https://github.com/ltgoslo/norec).
 
 # Cite
 
@@ -32,6 +32,6 @@ If you use this dataset, please cite the following paper:
     address = "Barcelona, Spain (Online)",
     publisher = "Association for Computational Linguistics",
     url = "https://www.aclweb.org/anthology/2020.gebnlp-1.11",
-    pages = "125--138",
+    pages = "125--138"
 }
 ```
