@@ -23,10 +23,15 @@ The metadata for each review is provided as a JSON object, all listed in a singl
 If you use this dataset, please cite the following paper:
 
 ```
-@InProceedings{TouOvrVell20,
-  author = {Samia Touileb and Lilja {\O}vrelid and Erik Velldal},
-  title = {Gender and sentiment, critics and authors: a dataset of Norwegian book reviews},
-  booktitle = {{Proceedings of the 2nd Workshop on Gender Bias in Natural Language Processing}},
-  year = 2020,
+@inproceedings{touileb-etal-2020-gender,
+    title = "Gender and sentiment, critics and authors: a dataset of {N}orwegian book reviews",
+    author = "Touileb, Samia and {\O}vrelid, Lilja and Velldal, Erik",
+    booktitle = "Proceedings of the Second Workshop on Gender Bias in Natural Language Processing",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.gebnlp-1.11",
+    pages = "125--138",
 }
 ```
